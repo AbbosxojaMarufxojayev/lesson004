@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 450px;
+    height: 550px;
+    background-color: blue;
+    border: 0px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 140px;
+}
+.body{
+    width: 100px;
+    height: 140px;
+    background-color: rgba(0, 0, 0, 0.849);
+    border-radius: 45px;
+    margin: auto;   
+    transform: rotate(330deg);
+    padding-top: 20px;
+}
+.form{
+    width: 8px;
+    height: 20px;
+    background-color: gray;
+    margin: auto;
+}

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    background-color: rgba(0, 0, 255, 0.74);
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}   
+.form{
+    width: 330px;
+    height: 350px;
+    background-color: white;
+    margin: auto;
+    overflow: hidden;
+}
+.content{
+    width: 330px;
+    height: 250px;
+    padding-left: 13px;
+    transition: 1s;
+    transform: translateY(100px);
+    background-color: white;
+}
+.price{
+    margin-left: 250px;
+    font-size: 20px;
+    margin-top: -25px;
+    color: rgba(0, 0, 255, 0.74)    ;
+}
+.desc{
+    color: gray;
+    margin-top: 5px;
+}
+.form:hover .content{
+    transform: translateY(-190px);
+}
+.size{
+    margin-top: 7px;
+}
+.size b{
+    font-size: 14px;
+    margin-top: 40px;
+}
+.collection{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+.body{
+    display: flex;
+}
+.item{
+    font-size: 13px;
+    color: rgba(0, 0, 255, 0.74);
+    list-style: none;
+    margin-left: 13px;
+}
+.body3 li{
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    padding-left: 3px;
+    padding-top: 1px;
+}
+.color{
+    margin-top: 7px;
+}
+.color b{
+    font-size: 14px;
+}
+.form2{
+    display: flex;
+    margin-top: 7px;
+}
+.collection2{
+    display: flex;
+}
+.color1{
+    background-color: grey;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    margin-top: 8px;
+}
+.color2{
+    margin-left: 13px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 255, 0.74);
+    margin-top: 8px;
+    border: 2px solid red;
+}
+.color3{
+    margin-left: 13px;
+    background-color: orange;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin-top: 8px;
+}
+.buttons{
+    display: flex;
+}
+.btn{
+    width: 120px;
+    height: 35px;
+    background-color: rgba(0, 0, 255, 0.74);
+    color: white;
+    margin-left: 10px;
+    border: 0px;
+    margin-top: 50px;
+}
+.btn2{
+    width: 120px;
+    border: 2px solid rgba(0, 0, 255, 0.74);
+    height: 35px;
+    margin-left: 38px;
+    color: rgba(0, 0, 255, 0.74);
+    margin-top: 50px;
+}
